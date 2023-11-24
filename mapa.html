@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ef705e37a4fb1639367a633e5c6d852b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ef705e37a4fb1639367a633e5c6d852b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ef705e37a4fb1639367a633e5c6d852b = L.map(
+                "map_ef705e37a4fb1639367a633e5c6d852b",
+                {
+                    center: [-15.788497, -47.879873],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e1313faab2d57e1660bb2104cc520798 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_e1313faab2d57e1660bb2104cc520798.addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+    
+            var marker_968a6502c7196da15a44ea62d5635f07 = L.marker(
+                [-27.0273601, -48.6535657],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_b5fc25e2f4936c7137dcb8be76bc63f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_968a6502c7196da15a44ea62d5635f07.setIcon(icon_b5fc25e2f4936c7137dcb8be76bc63f5);
+        
+    
+        var popup_279d002412d80d9d53255e8670a0becc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdfe0c05df1fd88f3350257c802f573b = $(`<div id="html_cdfe0c05df1fd88f3350257c802f573b" style="width: 100.0%; height: 100.0%;">Camboriú: 1.00</div>`)[0];
+                popup_279d002412d80d9d53255e8670a0becc.setContent(html_cdfe0c05df1fd88f3350257c802f573b);
+            
+        
+
+        marker_968a6502c7196da15a44ea62d5635f07.bindPopup(popup_279d002412d80d9d53255e8670a0becc)
+        ;
+
+        
+    
+    
+            var marker_be0edb894d1107a00a7bd6ddf867198f = L.marker(
+                [-16.680882, -49.2532691],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_0882ccaf5555753763066cd80f7b2e66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be0edb894d1107a00a7bd6ddf867198f.setIcon(icon_0882ccaf5555753763066cd80f7b2e66);
+        
+    
+        var popup_4fe529c4eb2f43eafcc5a7a83ebaf837 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_912791052c7235eca8db48c110bb89e7 = $(`<div id="html_912791052c7235eca8db48c110bb89e7" style="width: 100.0%; height: 100.0%;">Goiânia: 7.98</div>`)[0];
+                popup_4fe529c4eb2f43eafcc5a7a83ebaf837.setContent(html_912791052c7235eca8db48c110bb89e7);
+            
+        
+
+        marker_be0edb894d1107a00a7bd6ddf867198f.bindPopup(popup_4fe529c4eb2f43eafcc5a7a83ebaf837)
+        ;
+
+        
+    
+    
+            var marker_cfc8f526d6daf8469b028f04fd61c259 = L.marker(
+                [-29.3792858, -50.8737019],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_2812707ea2254adb29317ff0e8b694f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cfc8f526d6daf8469b028f04fd61c259.setIcon(icon_2812707ea2254adb29317ff0e8b694f5);
+        
+    
+        var popup_f10773718865b3e6a0b55fa57cf4c7cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f355636c71bfed69558e6e07588b4b72 = $(`<div id="html_f355636c71bfed69558e6e07588b4b72" style="width: 100.0%; height: 100.0%;">Gramado: 7.42</div>`)[0];
+                popup_f10773718865b3e6a0b55fa57cf4c7cd.setContent(html_f355636c71bfed69558e6e07588b4b72);
+            
+        
+
+        marker_cfc8f526d6daf8469b028f04fd61c259.bindPopup(popup_f10773718865b3e6a0b55fa57cf4c7cd)
+        ;
+
+        
+    
+    
+            var marker_b9f81951921acf190029fb4698363c0c = L.marker(
+                [-30.0324999, -51.2303767],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_bcb88c988272fe91c0250f7506ace12b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9f81951921acf190029fb4698363c0c.setIcon(icon_bcb88c988272fe91c0250f7506ace12b);
+        
+    
+        var popup_68eba52cd06119bc6aa04ab044bb1d79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f0cfcd788c515fd7ec54bd0513f12fa = $(`<div id="html_6f0cfcd788c515fd7ec54bd0513f12fa" style="width: 100.0%; height: 100.0%;">Porto Alegre: 7.60</div>`)[0];
+                popup_68eba52cd06119bc6aa04ab044bb1d79.setContent(html_6f0cfcd788c515fd7ec54bd0513f12fa);
+            
+        
+
+        marker_b9f81951921acf190029fb4698363c0c.bindPopup(popup_68eba52cd06119bc6aa04ab044bb1d79)
+        ;
+
+        
+    
+    
+            var marker_442c1cb4cc3d4f162dbc10e85e780a5f = L.marker(
+                [-28.015663, -49.592547],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_e161434aaccb4aef85a9440d6b7a9257 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_442c1cb4cc3d4f162dbc10e85e780a5f.setIcon(icon_e161434aaccb4aef85a9440d6b7a9257);
+        
+    
+        var popup_6ec65c31e4d4a4eea8ab396af26729ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6812cc6484a457d2dd6422a33f654a63 = $(`<div id="html_6812cc6484a457d2dd6422a33f654a63" style="width: 100.0%; height: 100.0%;">Urubici: 4.00</div>`)[0];
+                popup_6ec65c31e4d4a4eea8ab396af26729ca.setContent(html_6812cc6484a457d2dd6422a33f654a63);
+            
+        
+
+        marker_442c1cb4cc3d4f162dbc10e85e780a5f.bindPopup(popup_6ec65c31e4d4a4eea8ab396af26729ca)
+        ;
+
+        
+    
+    
+            var marker_6179389483d98f9f09cacacf9e5d36eb = L.marker(
+                [-23.0063966, -44.316326],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_89feb0ec8c14c1ec1f7d94bdcd1d0016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6179389483d98f9f09cacacf9e5d36eb.setIcon(icon_89feb0ec8c14c1ec1f7d94bdcd1d0016);
+        
+    
+        var popup_d95468dd39fe6804ce15611774170926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b4fa25ce014ec28ff3596c111656e62 = $(`<div id="html_6b4fa25ce014ec28ff3596c111656e62" style="width: 100.0%; height: 100.0%;">Angra dos Reis: 10.00</div>`)[0];
+                popup_d95468dd39fe6804ce15611774170926.setContent(html_6b4fa25ce014ec28ff3596c111656e62);
+            
+        
+
+        marker_6179389483d98f9f09cacacf9e5d36eb.bindPopup(popup_d95468dd39fe6804ce15611774170926)
+        ;
+
+        
+    
+    
+            var marker_a99473a25328b85483ea295fbf21a671 = L.marker(
+                [-27.9041185, -49.1287395],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_d72d2652595b417e2efee853238b1ae2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a99473a25328b85483ea295fbf21a671.setIcon(icon_d72d2652595b417e2efee853238b1ae2);
+        
+    
+        var popup_ece7908f0b48032fa048d294ba6efa3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_316d60b9a6c23bd0e08ee15c7f085a82 = $(`<div id="html_316d60b9a6c23bd0e08ee15c7f085a82" style="width: 100.0%; height: 100.0%;">Anitápolis: 9.40</div>`)[0];
+                popup_ece7908f0b48032fa048d294ba6efa3b.setContent(html_316d60b9a6c23bd0e08ee15c7f085a82);
+            
+        
+
+        marker_a99473a25328b85483ea295fbf21a671.bindPopup(popup_ece7908f0b48032fa048d294ba6efa3b)
+        ;
+
+        
+    
+    
+            var marker_869c0a1e360b96bf4e5930468b29c075 = L.marker(
+                [-26.9924395, -48.6339782],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_ec110212e9d518fc7816e9485c9c6887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_869c0a1e360b96bf4e5930468b29c075.setIcon(icon_ec110212e9d518fc7816e9485c9c6887);
+        
+    
+        var popup_92f98abd7ce778ef858c811c8ecdbb08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adb2df6f626cb31820969b4f6fa8d012 = $(`<div id="html_adb2df6f626cb31820969b4f6fa8d012" style="width: 100.0%; height: 100.0%;">Balneário Camboriú: 8.15</div>`)[0];
+                popup_92f98abd7ce778ef858c811c8ecdbb08.setContent(html_adb2df6f626cb31820969b4f6fa8d012);
+            
+        
+
+        marker_869c0a1e360b96bf4e5930468b29c075.bindPopup(popup_92f98abd7ce778ef858c811c8ecdbb08)
+        ;
+
+        
+    
+    
+            var marker_2938c99133ec30bdbac6225e2e28ad1f = L.marker(
+                [-27.1519159, -48.4875691],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_113685e40587a60abc20b5206759a411 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2938c99133ec30bdbac6225e2e28ad1f.setIcon(icon_113685e40587a60abc20b5206759a411);
+        
+    
+        var popup_e23a2e31d5e571ecadd0f4e3a81719e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85f5e37f4ed7f573bdd19ec31eeff6b8 = $(`<div id="html_85f5e37f4ed7f573bdd19ec31eeff6b8" style="width: 100.0%; height: 100.0%;">Bombinhas: 8.87</div>`)[0];
+                popup_e23a2e31d5e571ecadd0f4e3a81719e5.setContent(html_85f5e37f4ed7f573bdd19ec31eeff6b8);
+            
+        
+
+        marker_2938c99133ec30bdbac6225e2e28ad1f.bindPopup(popup_e23a2e31d5e571ecadd0f4e3a81719e5)
+        ;
+
+        
+    
+    
+            var marker_4c16d500f5fb7837012f41c885c5989f = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_3c106ee259a88f8a071b5a5103ee1bd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c16d500f5fb7837012f41c885c5989f.setIcon(icon_3c106ee259a88f8a071b5a5103ee1bd9);
+        
+    
+        var popup_911bbc572262acb1890a2abe57e29bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6af5e18e2d85fe27470323f6b6e7689 = $(`<div id="html_a6af5e18e2d85fe27470323f6b6e7689" style="width: 100.0%; height: 100.0%;">Brasília: 10.00</div>`)[0];
+                popup_911bbc572262acb1890a2abe57e29bd5.setContent(html_a6af5e18e2d85fe27470323f6b6e7689);
+            
+        
+
+        marker_4c16d500f5fb7837012f41c885c5989f.bindPopup(popup_911bbc572262acb1890a2abe57e29bd5)
+        ;
+
+        
+    
+    
+            var marker_c9e886932aa2ee5e5531d0d3f50e1179 = L.marker(
+                [-22.8804369, -42.0189227],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_d5400b25181ad30de61df2e06b64bf2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9e886932aa2ee5e5531d0d3f50e1179.setIcon(icon_d5400b25181ad30de61df2e06b64bf2e);
+        
+    
+        var popup_d582d44673df1adf3a665552351858ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4830ebff39ef25b5b70b5f6befd5381 = $(`<div id="html_a4830ebff39ef25b5b70b5f6befd5381" style="width: 100.0%; height: 100.0%;">Cabo Frio: 9.50</div>`)[0];
+                popup_d582d44673df1adf3a665552351858ee.setContent(html_a4830ebff39ef25b5b70b5f6befd5381);
+            
+        
+
+        marker_c9e886932aa2ee5e5531d0d3f50e1179.bindPopup(popup_d582d44673df1adf3a665552351858ee)
+        ;
+
+        
+    
+    
+            var marker_43f6d1b66099f655441cff3e6a35ede3 = L.marker(
+                [-22.738299, -45.5903769],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_ae485192f1be5207c9db257cc3cfb288 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43f6d1b66099f655441cff3e6a35ede3.setIcon(icon_ae485192f1be5207c9db257cc3cfb288);
+        
+    
+        var popup_ba55aa8ccbd87f08658f3be1bd057c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23f9c1fdc8274bbe22eb7771901ccc1e = $(`<div id="html_23f9c1fdc8274bbe22eb7771901ccc1e" style="width: 100.0%; height: 100.0%;">Campos do Jordão: 9.10</div>`)[0];
+                popup_ba55aa8ccbd87f08658f3be1bd057c2c.setContent(html_23f9c1fdc8274bbe22eb7771901ccc1e);
+            
+        
+
+        marker_43f6d1b66099f655441cff3e6a35ede3.bindPopup(popup_ba55aa8ccbd87f08658f3be1bd057c2c)
+        ;
+
+        
+    
+    
+            var marker_dff235b34aae08aca9c1d97b3e694a05 = L.marker(
+                [-29.3636094, -50.8096844],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_72897461501a9bba6932691691b6680f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dff235b34aae08aca9c1d97b3e694a05.setIcon(icon_72897461501a9bba6932691691b6680f);
+        
+    
+        var popup_a03faaeb135d911bceffaf526c091521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09cf0519ad0077ecd25435b47d5f00dd = $(`<div id="html_09cf0519ad0077ecd25435b47d5f00dd" style="width: 100.0%; height: 100.0%;">Canela: 9.00</div>`)[0];
+                popup_a03faaeb135d911bceffaf526c091521.setContent(html_09cf0519ad0077ecd25435b47d5f00dd);
+            
+        
+
+        marker_dff235b34aae08aca9c1d97b3e694a05.bindPopup(popup_a03faaeb135d911bceffaf526c091521)
+        ;
+
+        
+    
+    
+            var marker_fac53e492996172647bb5a2acf7993b4 = L.marker(
+                [-27.5973002, -48.5496098],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_509d52f8691d6e63716e811fc4fc0ca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fac53e492996172647bb5a2acf7993b4.setIcon(icon_509d52f8691d6e63716e811fc4fc0ca4);
+        
+    
+        var popup_dc4d7894f66a262381a290e669b72ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e6c7eb04dfdbf25161a685436fd6e1a = $(`<div id="html_0e6c7eb04dfdbf25161a685436fd6e1a" style="width: 100.0%; height: 100.0%;">Florianópolis: 8.78</div>`)[0];
+                popup_dc4d7894f66a262381a290e669b72ed4.setContent(html_0e6c7eb04dfdbf25161a685436fd6e1a);
+            
+        
+
+        marker_fac53e492996172647bb5a2acf7993b4.bindPopup(popup_dc4d7894f66a262381a290e669b72ed4)
+        ;
+
+        
+    
+    
+            var marker_52ba626153e4c0efc15dfa64bcbaa622 = L.marker(
+                [-28.0274798, -48.6240197],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_a9cca29dd6e0402b2df13d3990adea0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52ba626153e4c0efc15dfa64bcbaa622.setIcon(icon_a9cca29dd6e0402b2df13d3990adea0d);
+        
+    
+        var popup_8080eb399814ef4a61644eb406f37b12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ace8a512d35b8b630cbe2a97a0a30cb4 = $(`<div id="html_ace8a512d35b8b630cbe2a97a0a30cb4" style="width: 100.0%; height: 100.0%;">Garopaba: 9.50</div>`)[0];
+                popup_8080eb399814ef4a61644eb406f37b12.setContent(html_ace8a512d35b8b630cbe2a97a0a30cb4);
+            
+        
+
+        marker_52ba626153e4c0efc15dfa64bcbaa622.bindPopup(popup_8080eb399814ef4a61644eb406f37b12)
+        ;
+
+        
+    
+    
+            var marker_111cbfe585c28ef9b0b71f0e8ea43538 = L.marker(
+                [-14.792599, -39.0453843],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_34fd51fd59f5b93339b5c714a3da2f5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_111cbfe585c28ef9b0b71f0e8ea43538.setIcon(icon_34fd51fd59f5b93339b5c714a3da2f5e);
+        
+    
+        var popup_3c956aed26c7061b67940882f44a74f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a26ff5b5a8d72f8e6822b207147849c2 = $(`<div id="html_a26ff5b5a8d72f8e6822b207147849c2" style="width: 100.0%; height: 100.0%;">Ilhéus: 10.00</div>`)[0];
+                popup_3c956aed26c7061b67940882f44a74f7.setContent(html_a26ff5b5a8d72f8e6822b207147849c2);
+            
+        
+
+        marker_111cbfe585c28ef9b0b71f0e8ea43538.bindPopup(popup_3c956aed26c7061b67940882f44a74f7)
+        ;
+
+        
+    
+    
+            var marker_9d574000555a4461b1a47005b21b2ecd = L.marker(
+                [-26.9046787, -48.6552979],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_fecb4b67730b3958a3368ed7eee6f77a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d574000555a4461b1a47005b21b2ecd.setIcon(icon_fecb4b67730b3958a3368ed7eee6f77a);
+        
+    
+        var popup_f98d380319dd8242aeb33611bc7203bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b8045738039c065fada5a381648798 = $(`<div id="html_69b8045738039c065fada5a381648798" style="width: 100.0%; height: 100.0%;">Itajaí: 9.08</div>`)[0];
+                popup_f98d380319dd8242aeb33611bc7203bc.setContent(html_69b8045738039c065fada5a381648798);
+            
+        
+
+        marker_9d574000555a4461b1a47005b21b2ecd.bindPopup(popup_f98d380319dd8242aeb33611bc7203bc)
+        ;
+
+        
+    
+    
+            var marker_f366ecc1f326cc03125b596234857f89 = L.marker(
+                [-27.09472, -48.6137778],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_371bbc81281d65c786e52e096eb2e546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f366ecc1f326cc03125b596234857f89.setIcon(icon_371bbc81281d65c786e52e096eb2e546);
+        
+    
+        var popup_f446103f7bd2b215303d2cdd4c61938f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bd73734806587d884d8780d3da83fc7 = $(`<div id="html_3bd73734806587d884d8780d3da83fc7" style="width: 100.0%; height: 100.0%;">Itapema: 9.38</div>`)[0];
+                popup_f446103f7bd2b215303d2cdd4c61938f.setContent(html_3bd73734806587d884d8780d3da83fc7);
+            
+        
+
+        marker_f366ecc1f326cc03125b596234857f89.bindPopup(popup_f446103f7bd2b215303d2cdd4c61938f)
+        ;
+
+        
+    
+    
+            var marker_9e3763fabfcef4326388d49655067f95 = L.marker(
+                [-22.5075743, -43.1785356],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_de6240633e2c052a7d5d5237dab7d707 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e3763fabfcef4326388d49655067f95.setIcon(icon_de6240633e2c052a7d5d5237dab7d707);
+        
+    
+        var popup_960ebc8622297b60e6dbb742267607c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce189f637e2dedbfc20a48950923a6da = $(`<div id="html_ce189f637e2dedbfc20a48950923a6da" style="width: 100.0%; height: 100.0%;">Petrópolis: 9.50</div>`)[0];
+                popup_960ebc8622297b60e6dbb742267607c1.setContent(html_ce189f637e2dedbfc20a48950923a6da);
+            
+        
+
+        marker_9e3763fabfcef4326388d49655067f95.bindPopup(popup_960ebc8622297b60e6dbb742267607c1)
+        ;
+
+        
+    
+    
+            var marker_1434c60df6a5734929c67aca5a51e1fd = L.marker(
+                [-27.1542415, -48.5424395],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_25358421dd975726bb019b929b5f45fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1434c60df6a5734929c67aca5a51e1fd.setIcon(icon_25358421dd975726bb019b929b5f45fa);
+        
+    
+        var popup_67cdf157c9660bcfe92a74ddd9e5a48e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33cc9637983ff83ac31a4a883125d503 = $(`<div id="html_33cc9637983ff83ac31a4a883125d503" style="width: 100.0%; height: 100.0%;">Porto Belo: 9.77</div>`)[0];
+                popup_67cdf157c9660bcfe92a74ddd9e5a48e.setContent(html_33cc9637983ff83ac31a4a883125d503);
+            
+        
+
+        marker_1434c60df6a5734929c67aca5a51e1fd.bindPopup(popup_67cdf157c9660bcfe92a74ddd9e5a48e)
+        ;
+
+        
+    
+    
+            var marker_bfdd48f5453d82e12e576068ab6021df = L.marker(
+                [-21.7900318, -46.5647928],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_14acefb95e554d8b0d750da03749b1e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfdd48f5453d82e12e576068ab6021df.setIcon(icon_14acefb95e554d8b0d750da03749b1e9);
+        
+    
+        var popup_e7c2d3ef007a94cb1378f4d17d35130f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2c17821bdb602f00f2e0646d31cd0f9 = $(`<div id="html_c2c17821bdb602f00f2e0646d31cd0f9" style="width: 100.0%; height: 100.0%;">Poços de Caldas: 8.33</div>`)[0];
+                popup_e7c2d3ef007a94cb1378f4d17d35130f.setContent(html_c2c17821bdb602f00f2e0646d31cd0f9);
+            
+        
+
+        marker_bfdd48f5453d82e12e576068ab6021df.bindPopup(popup_e7c2d3ef007a94cb1378f4d17d35130f)
+        ;
+
+        
+    
+    
+            var marker_bf63efaa871b4b58f6d079b7adc070d8 = L.marker(
+                [-27.6157733, -48.6276491],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_7d1c290762f273298dfeda01bf5e4f88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf63efaa871b4b58f6d079b7adc070d8.setIcon(icon_7d1c290762f273298dfeda01bf5e4f88);
+        
+    
+        var popup_0e053854cf642246c858c25448664d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d61fd574d80cb769940980bd1ff5d956 = $(`<div id="html_d61fd574d80cb769940980bd1ff5d956" style="width: 100.0%; height: 100.0%;">São José: 9.50</div>`)[0];
+                popup_0e053854cf642246c858c25448664d01.setContent(html_d61fd574d80cb769940980bd1ff5d956);
+            
+        
+
+        marker_bf63efaa871b4b58f6d079b7adc070d8.bindPopup(popup_0e053854cf642246c858c25448664d01)
+        ;
+
+        
+    
+    
+            var marker_0aefa08f5b6adcd5cebd3e9a556d03c1 = L.marker(
+                [-23.433162, -45.083415],
+                {}
+            ).addTo(map_ef705e37a4fb1639367a633e5c6d852b);
+        
+    
+            var icon_e95cf1a01d497ba83e71e578bc0d3771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0aefa08f5b6adcd5cebd3e9a556d03c1.setIcon(icon_e95cf1a01d497ba83e71e578bc0d3771);
+        
+    
+        var popup_34deda36c1e600eb980d612af3b6009c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563a1c30a3f3fa4a6ca031bb0f48bb8b = $(`<div id="html_563a1c30a3f3fa4a6ca031bb0f48bb8b" style="width: 100.0%; height: 100.0%;">Ubatuba: 9.47</div>`)[0];
+                popup_34deda36c1e600eb980d612af3b6009c.setContent(html_563a1c30a3f3fa4a6ca031bb0f48bb8b);
+            
+        
+
+        marker_0aefa08f5b6adcd5cebd3e9a556d03c1.bindPopup(popup_34deda36c1e600eb980d612af3b6009c)
+        ;
+
+        
+    
+</script>
+</html>
