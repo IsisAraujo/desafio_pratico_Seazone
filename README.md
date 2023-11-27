@@ -41,6 +41,7 @@ O projeto busca responder às seguintes 13 perguntas do desafio:
 - **Matplotlib/Seaborn**: Para visualização de dados.
 - **Jupyter Notebook**: Para apresentar a análise de forma interativa.
 - **Geopy**: Utilizado para análise geoespacial.
+- **Scikit-learn (KMeans)**: Método de clusterização.
 
 ## 📝 Principais Insights
 
@@ -65,16 +66,12 @@ Estes insights fornecem uma compreensão abrangente do mercado imobiliário anal
 
 ## 🔗 Links Úteis
 
-- [Link para o Jupyter Notebook com a análise]
-- [Outros links relevantes]
+- [[Link para o Jupyter Notebook com a análise](https://github.com/IsisAraujo/desafio_pratico_Seazone/blob/master/eda_seazone.ipynb)]
+
 
 ## 📝 Feedback sobre o Desafio
 
-Este desafio proporcionou uma oportunidade incrível para explorar e analisar dados do mercado imobiliário, destacando a importância da localização e das comodidades na percepção dos hóspedes. A liberdade criativa e a complexidade do projeto contribuíram para um aprendizado profundo e gratificante.
+Este desafio proporcionou uma oportunidade incrível para explorar e analisar dados do mercado imobiliário, destacando a importância da localização e das comodidades na percepção dos hóspedes. Achei a experiência bastante interessante e desafiadora. Enfrentei algumas questões que me fizeram pensar bastante, o que foi ótimo para meu crescimento e aprendizado.
+O que realmente me empolgou foi a liberdade que tive para abordar as tarefas. Isso me permitiu explorar diferentes caminhos e encontrar soluções criativas para os problemas apresentados.
 
-
-## 📚 Referências
-
-- [Documentação de ferramentas utilizadas]
-- [Artigos e recursos de apoio]
 
